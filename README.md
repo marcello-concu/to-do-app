@@ -23,6 +23,10 @@ Desktop views
 
 ![image](https://user-images.githubusercontent.com/118814233/221164795-a926a5de-b735-4081-af3a-52d8a24ff7a5.png)
 
+New task
+
 ![image](https://user-images.githubusercontent.com/118814233/221165951-1ec4a967-83fe-4f14-8089-9a4d97d59e7f.png)
+
+Update task
 
 ![image](https://user-images.githubusercontent.com/118814233/221166035-5a50e8ba-c33a-4531-8592-00c98a0535cc.png)
