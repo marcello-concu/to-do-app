@@ -21,12 +21,12 @@ Update task
 
 Desktop views
 
-![image](https://user-images.githubusercontent.com/118814233/221164795-a926a5de-b735-4081-af3a-52d8a24ff7a5.png)
+![image](https://user-images.githubusercontent.com/118814233/222097831-3f6157c7-d4fa-4994-bb36-741019b73e46.png)
 
 New task
 
-![image](https://user-images.githubusercontent.com/118814233/221165951-1ec4a967-83fe-4f14-8089-9a4d97d59e7f.png)
+![image](https://user-images.githubusercontent.com/118814233/222097964-1ae08db0-4dae-49ab-823b-2946bcf86b2c.png)
 
 Update task
 
-![image](https://user-images.githubusercontent.com/118814233/221166035-5a50e8ba-c33a-4531-8592-00c98a0535cc.png)
+![image](https://user-images.githubusercontent.com/118814233/222098090-de57af13-c0a4-4321-b2bb-b1f9345ad79f.png)
