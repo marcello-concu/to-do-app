@@ -48,7 +48,9 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <figure>
-        <div className='nav__logo'><img src={ Logo } alt="Logo" className='nav__logo__img'/></div>
+         <Link to="/">
+          <div className='nav__logo'><img src={ Logo } alt="Logo" className='nav__logo__img'/></div>
+        </Link>
         <figcaption>Task List.</figcaption>
       </figure>
       <img src={ Menu } alt="Menu" className='menu__img' id='menu__img' onClick={animation} />
