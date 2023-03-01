@@ -13,11 +13,11 @@ Filter on "done"
 
 New task
 
-![image](https://user-images.githubusercontent.com/118814233/221165601-ecb1778f-9489-4b53-8fde-3bb9b849ec61.png)
+![image](https://user-images.githubusercontent.com/118814233/222098804-70689d3a-51e6-470e-a111-a8ef0b1515d7.png)
 
 Update task
 
-![image](https://user-images.githubusercontent.com/118814233/221165724-537aca09-cbc6-4da8-8a01-179b1c43edd8.png)
+![image](https://user-images.githubusercontent.com/118814233/222098509-5845e0de-1ab0-43b3-bb17-ac98c0f3f8aa.png)
 
 Desktop views
 
