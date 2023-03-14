@@ -31,10 +31,14 @@
   padding: 2rem;
 }
 
-.menu__img {
-  width: 30px;
+.hamburger {
+  fill: #514957;
+}
+
+.btn-hamburger {
+  background: transparent;
+  border: none;
   cursor: pointer;
-  margin-top: .8rem;
 }
 
 .nav__logo {
@@ -257,7 +261,7 @@ input[type=radio] {
     font-weight: bold;
   }
 
-  .menu__img {
+  .btn-hamburger {
     display: none !important;
   }
 

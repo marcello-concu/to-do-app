@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../assets/img/Logo-cropped.svg'
-import Menu from '../assets/img/menu.svg'
 import { gsap } from 'gsap'
 
 const NavBar = () => {
@@ -48,12 +47,19 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <figure>
-         <Link to="/">
+        <Link to="/">
           <div className='nav__logo'><img src={ Logo } alt="Logo" className='nav__logo__img'/></div>
         </Link>
         <figcaption>Task List.</figcaption>
       </figure>
-      <img src={ Menu } alt="Menu" className='menu__img' id='menu__img' onClick={animation} />
+      {/* <img src={ Menu } alt="Menu" className='menu__img' id='menu__img' onClick={animation} /> */}
+      <button class="btn-hamburger" id='menu__img' onClick={animation}>
+        <svg class="hamburger" viewBox="0 0 100 100" width="40">
+            <rect class="line line__top" width="80" height="10" x="10" y="30" rx="5"></rect>
+            <rect class="line line__middle" width="80" height="10" x="10" y="50" rx="5"></rect>
+            <rect class="line line__bottom" width="80" height="10" x="10" y="70" rx="5"></rect>
+        </svg>
+      </button>
       <div className="menu__list" ref={menu__list}>
         <Link className="menu__link" to="/" onClick={animation} >
           <h6>ALL TASKS</h6>
