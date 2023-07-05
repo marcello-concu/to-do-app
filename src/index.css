@@ -107,6 +107,7 @@ figcaption {
   border-radius: 0.2rem;
   box-shadow: 1px 1px 5px #b19ff0;
   margin-top: 1rem;
+  overflow-wrap: break-word;
 }
 
 .task__title,

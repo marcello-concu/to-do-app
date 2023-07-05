@@ -16,9 +16,9 @@ const WriteTask = () => {
   const handleSubmit = async e => {
     e.preventDefault()
     try {
-      state ? await axios.put(`/tasks/${state.task_id}`, {
+      state ? await axios.put(`/server/tasks/${state.task_id}`, {
         task_name, task_description, task_state, task_edit: moment(Date.now()).format("YYYY-MM-DD HH:mm:ss"),
-      }) : await axios.post(`/tasks/`, {
+      }) : await axios.post(`/server/tasks/`, {
         task_name, task_description, task_state: "todo", task_date: moment(Date.now()).format("YYYY-MM-DD HH:mm:ss"),
       })
       navigate('/')
@@ -29,7 +29,7 @@ const WriteTask = () => {
 
   const handleDelete = async () => {
     try {
-      await axios.delete(`/tasks/${state.task_id}`)
+      await axios.delete(`/server/tasks/${state.task_id}`)
       navigate('/')
     } catch (err) {
       console.log(err)

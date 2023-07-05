@@ -22,7 +22,7 @@ const router = createBrowserRouter ([
       { path: '/', element: <Home /> },
       { path: '/write', element: <WriteTask /> }
     ]
-  }
+  },
 ])
 
 function App() {

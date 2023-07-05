@@ -1,0 +1,316 @@
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Socket.<anonymous> (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:114:31)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:313:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._notifyError (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:249:12)
+    at Socket.<anonymous> (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:120:12)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:313:12) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+
+Node.js v18.12.0
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+Emitted 'error' event on Connection instance at:
+    at Connection._notifyError (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:249:12)
+    at Connection._handleFatalError (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:180:10)
+    at Connection._handleNetworkError (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:193:10)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+Node.js v18.12.0
+WSAStartup: (11003) Er is een onherstelbare fout opgetreden tijdens het zoeken in de database.
+node:internal/child_process:413
+    throw errnoException(err, 'spawn');
+    ^
+
+Error: spawn EROFS
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:743:9)
+    at Object.execFile (node:child_process:341:17)
+    at exec (node:child_process:226:25)
+    at write (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\node-windows\lib\eventlog.js:67:3)
+    at logger.value [as warn] (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\node-windows\lib\eventlog.js:185:9)
+    at launch (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\node-windows\lib\wrapper.js:147:18)
+    at process.<anonymous> (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\node-windows\lib\wrapper.js:205:3)
+    at process.emit (node:events:513:28)
+    at process._fatalException (node:internal/process/execution:149:25) {
+  errno: -4043,
+  code: 'EROFS',
+  syscall: 'spawn'
+}
+
+Node.js v18.12.0
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Socket.<anonymous> (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:114:31)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:313:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._notifyError (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:249:12)
+    at Socket.<anonymous> (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:120:12)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:313:12) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+
+Node.js v18.12.0
+node:internal/fs/utils:348
+    throw err;
+    ^
+
+Error: EPERM: operation not permitted, open 'C:\Users\User\Documents\Marcello\IT\to-do-app\server\server.js'
+    at Object.openSync (node:fs:600:3)
+    at Object.readFileSync (node:fs:468:35)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1176:18)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {
+  errno: -4048,
+  syscall: 'open',
+  code: 'EPERM',
+  path: 'C:\\Users\\User\\Documents\\Marcello\\IT\\to-do-app\\server\\server.js'
+}
+
+Node.js v18.12.0
+node:internal/fs/utils:348
+    throw err;
+    ^
+
+Error: EPERM: operation not permitted, open 'C:\Users\User\Documents\Marcello\IT\to-do-app\server\server.js'
+    at Object.openSync (node:fs:600:3)
+    at Object.readFileSync (node:fs:468:35)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1176:18)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {
+  errno: -4048,
+  syscall: 'open',
+  code: 'EPERM',
+  path: 'C:\\Users\\User\\Documents\\Marcello\\IT\\to-do-app\\server\\server.js'
+}
+
+Node.js v18.12.0
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Socket.<anonymous> (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:114:31)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:313:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._notifyError (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:249:12)
+    at Socket.<anonymous> (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:120:12)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:313:12) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+
+Node.js v18.12.0
+node:internal/fs/utils:348
+    throw err;
+    ^
+
+Error: EPERM: operation not permitted, open 'C:\Users\User\Documents\Marcello\IT\to-do-app\server\server.js'
+    at Object.openSync (node:fs:600:3)
+    at Object.readFileSync (node:fs:468:35)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1176:18)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {
+  errno: -4048,
+  syscall: 'open',
+  code: 'EPERM',
+  path: 'C:\\Users\\User\\Documents\\Marcello\\IT\\to-do-app\\server\\server.js'
+}
+
+Node.js v18.12.0
+node:internal/fs/utils:348
+    throw err;
+    ^
+
+Error: EPERM: operation not permitted, open 'C:\Users\User\Documents\Marcello\IT\to-do-app\server\server.js'
+    at Object.openSync (node:fs:600:3)
+    at Object.readFileSync (node:fs:468:35)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1176:18)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {
+  errno: -4048,
+  syscall: 'open',
+  code: 'EPERM',
+  path: 'C:\\Users\\User\\Documents\\Marcello\\IT\\to-do-app\\server\\server.js'
+}
+
+Node.js v18.12.0
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Socket.<anonymous> (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:114:31)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:313:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._notifyError (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:249:12)
+    at Socket.<anonymous> (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:120:12)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:313:12) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+
+Node.js v18.12.0
+node:internal/fs/utils:348
+    throw err;
+    ^
+
+Error: EPERM: operation not permitted, open 'C:\Users\User\Documents\Marcello\IT\to-do-app\server\server.js'
+    at Object.openSync (node:fs:600:3)
+    at Object.readFileSync (node:fs:468:35)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1176:18)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {
+  errno: -4048,
+  syscall: 'open',
+  code: 'EPERM',
+  path: 'C:\\Users\\User\\Documents\\Marcello\\IT\\to-do-app\\server\\server.js'
+}
+
+Node.js v18.12.0
+node:internal/fs/utils:348
+    throw err;
+    ^
+
+Error: EPERM: operation not permitted, open 'C:\Users\User\Documents\Marcello\IT\to-do-app\server\server.js'
+    at Object.openSync (node:fs:600:3)
+    at Object.readFileSync (node:fs:468:35)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1176:18)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {
+  errno: -4048,
+  syscall: 'open',
+  code: 'EPERM',
+  path: 'C:\\Users\\User\\Documents\\Marcello\\IT\\to-do-app\\server\\server.js'
+}
+
+Node.js v18.12.0
+node:internal/child_process:413
+    throw errnoException(err, 'spawn');
+    ^
+
+Error: spawn EROFS
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:743:9)
+    at Object.execFile (node:child_process:341:17)
+    at exec (node:child_process:226:25)
+    at write (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\node-windows\lib\eventlog.js:67:3)
+    at logger.value [as warn] (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\node-windows\lib\eventlog.js:185:9)
+    at launch (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\node-windows\lib\wrapper.js:147:18)
+    at process.<anonymous> (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\node-windows\lib\wrapper.js:205:3)
+    at process.emit (node:events:513:28)
+    at process._fatalException (node:internal/process/execution:149:25) {
+  errno: -4043,
+  code: 'EROFS',
+  syscall: 'spawn'
+}
+
+Node.js v18.12.0
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Socket.<anonymous> (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:114:31)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:313:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._notifyError (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:249:12)
+    at Socket.<anonymous> (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:120:12)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:313:12) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+
+Node.js v18.12.0
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+Emitted 'error' event on Connection instance at:
+    at Connection._notifyError (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:249:12)
+    at Connection._handleFatalError (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:180:10)
+    at Connection._handleNetworkError (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:193:10)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+Node.js v18.12.0
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+Emitted 'error' event on Connection instance at:
+    at Connection._notifyError (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:249:12)
+    at Connection._handleFatalError (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:180:10)
+    at Connection._handleNetworkError (C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\mysql2\lib\connection.js:193:10)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+Node.js v18.12.0

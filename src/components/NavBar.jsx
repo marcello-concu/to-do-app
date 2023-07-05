@@ -53,11 +53,11 @@ const NavBar = () => {
         <figcaption>Task List.</figcaption>
       </figure>
       {/* <img src={ Menu } alt="Menu" className='menu__img' id='menu__img' onClick={animation} /> */}
-      <button class="btn-hamburger" id='menu__img' onClick={animation}>
-        <svg class="hamburger" viewBox="0 0 100 100" width="40">
-            <rect class="line line__top" width="80" height="10" x="10" y="30" rx="5"></rect>
-            <rect class="line line__middle" width="80" height="10" x="10" y="50" rx="5"></rect>
-            <rect class="line line__bottom" width="80" height="10" x="10" y="70" rx="5"></rect>
+      <button className="btn-hamburger" id='menu__img' onClick={animation}>
+        <svg className="hamburger" viewBox="0 0 100 100" width="40">
+            <rect className="line line__top" width="80" height="10" x="10" y="30" rx="5"></rect>
+            <rect className="line line__middle" width="80" height="10" x="10" y="50" rx="5"></rect>
+            <rect className="line line__bottom" width="80" height="10" x="10" y="70" rx="5"></rect>
         </svg>
       </button>
       <div className="menu__list" ref={menu__list}>

@@ -12,7 +12,7 @@ const Home = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await axios.get(`/tasks${id}`)
+                const res = await axios.get(`/server/tasks${id}`)
                 setTasks(res.data)
             } catch (err) {
                 console.log(err)

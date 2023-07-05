@@ -1,0 +1,88 @@
+2023-07-04 17:51:41 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Marcello\IT\to-do-app\server\server.js --scriptoptions= --log "task-app wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-07-04 17:51:41 - Started 18772
+2023-07-04 17:55:50 - Stopping taskapp.exe
+2023-07-04 17:55:50 - ProcessKill 18772
+2023-07-04 17:55:50 - Shutdown exception
+Message:Systeem wordt afgesloten.
+
+Stacktrace:   bij System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   bij System.Management.ManagementScope.InitializeGuts(Object o)
+   bij System.Management.ManagementScope.Initialize()
+   bij System.Management.ManagementObjectSearcher.Initialize()
+   bij System.Management.ManagementObjectSearcher.Get()
+   bij winsw.WrapperService.GetChildPids(Int32 pid)
+   bij winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   bij winsw.WrapperService.StopIt()
+   bij winsw.WrapperService.OnShutdown()
+2023-07-04 17:56:17 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Marcello\IT\to-do-app\server\server.js --scriptoptions= --log "task-app wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-07-04 17:56:17 - Started 7792
+2023-07-04 18:01:30 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Marcello\IT\to-do-app\server\server.js --scriptoptions= --log "task-app wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-07-04 18:01:31 - Started 7784
+2023-07-04 22:37:54 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Marcello\IT\to-do-app\server\server.js --scriptoptions= --log "task-app wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-07-04 22:37:54 - Started 7056
+2023-07-04 23:21:24 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Marcello\IT\to-do-app\server\server.js --scriptoptions= --log "task-app wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-07-04 23:21:24 - Started 7468
+2023-07-04 23:53:52 - Stopping taskapp.exe
+2023-07-04 23:53:52 - ProcessKill 7468
+2023-07-04 23:53:53 - Found child process: 7528 Name: conhost.exe
+2023-07-04 23:53:53 - Found child process: 9528 Name: node.exe
+2023-07-04 23:53:53 - Stopping process 7528
+2023-07-04 23:53:53 - Send SIGINT 7528
+2023-07-04 23:53:53 - SIGINT to 7528 failed - Killing as fallback
+2023-07-04 23:53:53 - Stopping process 9528
+2023-07-04 23:53:53 - Send SIGINT 9528
+2023-07-04 23:53:53 - SIGINT to 9528 failed - Killing as fallback
+2023-07-04 23:53:53 - Stopping process 7468
+2023-07-04 23:53:53 - Send SIGINT 7468
+2023-07-04 23:53:53 - SIGINT to 7468 failed - Killing as fallback
+2023-07-04 23:53:53 - Finished taskapp.exe
+2023-07-04 23:54:50 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Marcello\IT\to-do-app\server\server.js --scriptoptions= --log "task-app wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-07-04 23:54:50 - Started 7328
+2023-07-04 23:55:10 - Stopping taskapp.exe
+2023-07-04 23:55:10 - ProcessKill 7328
+2023-07-04 23:55:10 - Found child process: 2592 Name: conhost.exe
+2023-07-04 23:55:10 - Found child process: 21332 Name: node.exe
+2023-07-04 23:55:10 - Stopping process 2592
+2023-07-04 23:55:10 - Send SIGINT 2592
+2023-07-04 23:55:10 - SIGINT to 2592 failed - Killing as fallback
+2023-07-04 23:55:10 - Stopping process 21332
+2023-07-04 23:55:10 - Send SIGINT 21332
+2023-07-04 23:55:10 - SIGINT to 21332 failed - Killing as fallback
+2023-07-04 23:55:10 - Stopping process 7328
+2023-07-04 23:55:10 - Send SIGINT 7328
+2023-07-04 23:55:10 - SIGINT to 7328 failed - Killing as fallback
+2023-07-04 23:55:10 - Finished taskapp.exe
+2023-07-04 23:55:11 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Marcello\IT\to-do-app\server\server.js --scriptoptions= --log "task-app wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-07-04 23:55:11 - Started 2888
+2023-07-04 23:56:50 - Stopping taskapp.exe
+2023-07-04 23:56:50 - ProcessKill 2888
+2023-07-04 23:56:50 - Found child process: 3636 Name: conhost.exe
+2023-07-04 23:56:50 - Found child process: 15616 Name: node.exe
+2023-07-04 23:56:50 - Stopping process 3636
+2023-07-04 23:56:50 - Send SIGINT 3636
+2023-07-04 23:56:50 - SIGINT to 3636 failed - Killing as fallback
+2023-07-04 23:56:50 - Stopping process 15616
+2023-07-04 23:56:50 - Send SIGINT 15616
+2023-07-04 23:56:50 - SIGINT to 15616 failed - Killing as fallback
+2023-07-04 23:56:50 - Stopping process 2888
+2023-07-04 23:56:50 - Send SIGINT 2888
+2023-07-04 23:56:50 - SIGINT to 2888 failed - Killing as fallback
+2023-07-04 23:56:50 - Finished taskapp.exe
+2023-07-04 23:56:58 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Marcello\IT\to-do-app\server\server.js --scriptoptions= --log "task-app wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-07-04 23:56:58 - Started 7480
+2023-07-04 23:57:33 - Stopping taskapp.exe
+2023-07-04 23:57:33 - ProcessKill 7480
+2023-07-04 23:57:34 - Shutdown exception
+Message:Systeem wordt afgesloten.
+
+Stacktrace:   bij System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   bij System.Management.ManagementScope.InitializeGuts(Object o)
+   bij System.Management.ManagementScope.Initialize()
+   bij System.Management.ManagementObjectSearcher.Initialize()
+   bij System.Management.ManagementObjectSearcher.Get()
+   bij winsw.WrapperService.GetChildPids(Int32 pid)
+   bij winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   bij winsw.WrapperService.StopIt()
+   bij winsw.WrapperService.OnShutdown()
+2023-07-05 08:32:50 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\User\Documents\Marcello\IT\to-do-app\server\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Marcello\IT\to-do-app\server\server.js --scriptoptions= --log "task-app wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-07-05 08:32:50 - Started 8680
