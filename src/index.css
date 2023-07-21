@@ -343,14 +343,6 @@ input[type=radio] {
   }
 
   .task__container {
-    width: 40%;
-  }
-}
-
-@media only screen and (min-width: 1350px) {
-
-  /* HOME */
-  .task__container {
     width: 30%;
   }
 }
