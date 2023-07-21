@@ -10,8 +10,8 @@
 
 # production
 /build
-
-/server/build
+/server/daemon
+/server/service.js
 
 # misc
 .DS_Store
